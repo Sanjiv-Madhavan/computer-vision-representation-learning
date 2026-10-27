@@ -1,0 +1,12 @@
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+# Keep private/raw image inputs and result artifacts out of git by default
+data/images/*.jpg
+data/images/*.jpeg
+data/images/*.png
+outputs/*
+!outputs/.gitkeep

@@ -1,0 +1,7 @@
+# PyTorch will be installed as a transitive dependency of OpenCLIP.
+# For a specific CUDA-enabled build, use the official PyTorch install selector first.
+open_clip_torch>=2.24
+Pillow>=10
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.4
